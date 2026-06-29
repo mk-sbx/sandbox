@@ -1,0 +1,33 @@
+metadata:
+  source: NPPF_December_2024.pdf
+  source_bytes: 746000
+  page_count: 82
+  encrypted: false
+  page_type_breakdown:
+    mixed: 2
+    text_native: 80
+  routes:
+  - start_page: 1
+    end_page: 2
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 3
+    end_page: 82
+    page_type: text_native
+    strategy: pymupdf_text
+  scanned_pages: []
+  stage_timings:
+  - stage: triage
+    seconds: 0.2197
+  - stage: extraction
+    seconds: 3.3435
+  - stage: verification
+    seconds: 0.0025
+  - stage: assembly
+    seconds: 0.0
+  status: ok
+  config_snapshot:
+    min_text_chars: 50
+    verify_min_chars_per_page: 1
+issues: []
+messages: []

@@ -1,5 +1,5 @@
 """
-Regression tests for geo_check.py
+Regression tests for main.py
 =================================
 
 These lock in the behaviour exercised against the Telford (TWLP) data and the
@@ -16,7 +16,7 @@ real layers, so the tests do NOT depend on the external ``twlp_geojson/`` or
 
 Requires shapely + pyproj (same as geo_check). No pytest needed:
 
-    python3 tools/tests/test_geo_check.py     # standalone runner, exits non-zero on failure
+    python3 tools/tests/tests.py     # standalone runner, exits non-zero on failure
 
 It is also discoverable by pytest if you have it (``pytest tools/tests``).
 
@@ -36,9 +36,9 @@ from contextlib import contextmanager
 _HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(_HERE, ".."))
 
-import geo_check as gc  # noqa: E402
+import main as gc  # noqa: E402
 
-_FIX = os.path.join(_HERE, "fixtures")
+_FIX = os.path.join(_HERE, "../pdf_to_markdown/tests/fixtures")
 
 
 def _fix(name):

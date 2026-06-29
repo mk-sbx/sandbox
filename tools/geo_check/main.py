@@ -1,5 +1,5 @@
 """
-geo_check.py
+main.py
 ============
 
 Check a query geometry (e.g. a MultiPolygon) against a GeoJSON dataset and

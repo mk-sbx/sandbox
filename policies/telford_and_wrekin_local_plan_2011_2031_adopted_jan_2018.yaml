@@ -1,0 +1,388 @@
+metadata:
+  source: telford_and_wrekin_local_plan_2011_2031_adopted_jan_2018.pdf
+  source_bytes: 35599393
+  page_count: 201
+  encrypted: false
+  page_type_breakdown:
+    scanned: 1
+    mixed: 51
+    text_native: 149
+  routes:
+  - start_page: 1
+    end_page: 1
+    page_type: scanned
+    strategy: pymupdf_text
+  - start_page: 2
+    end_page: 2
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 3
+    end_page: 10
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 11
+    end_page: 12
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 13
+    end_page: 14
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 15
+    end_page: 15
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 16
+    end_page: 16
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 17
+    end_page: 21
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 22
+    end_page: 22
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 23
+    end_page: 24
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 25
+    end_page: 26
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 27
+    end_page: 31
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 32
+    end_page: 32
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 33
+    end_page: 34
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 35
+    end_page: 35
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 36
+    end_page: 37
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 38
+    end_page: 40
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 41
+    end_page: 41
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 42
+    end_page: 43
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 44
+    end_page: 44
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 45
+    end_page: 45
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 46
+    end_page: 46
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 47
+    end_page: 47
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 48
+    end_page: 49
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 50
+    end_page: 51
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 52
+    end_page: 53
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 54
+    end_page: 54
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 55
+    end_page: 55
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 56
+    end_page: 59
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 60
+    end_page: 60
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 61
+    end_page: 63
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 64
+    end_page: 64
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 65
+    end_page: 69
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 70
+    end_page: 70
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 71
+    end_page: 71
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 72
+    end_page: 72
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 73
+    end_page: 75
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 76
+    end_page: 77
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 78
+    end_page: 78
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 79
+    end_page: 79
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 80
+    end_page: 80
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 81
+    end_page: 82
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 83
+    end_page: 83
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 84
+    end_page: 85
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 86
+    end_page: 86
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 87
+    end_page: 90
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 91
+    end_page: 92
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 93
+    end_page: 93
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 94
+    end_page: 94
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 95
+    end_page: 97
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 98
+    end_page: 98
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 99
+    end_page: 102
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 103
+    end_page: 103
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 104
+    end_page: 104
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 105
+    end_page: 106
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 107
+    end_page: 110
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 111
+    end_page: 111
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 112
+    end_page: 116
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 117
+    end_page: 117
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 118
+    end_page: 123
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 124
+    end_page: 124
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 125
+    end_page: 125
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 126
+    end_page: 126
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 127
+    end_page: 134
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 135
+    end_page: 135
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 136
+    end_page: 141
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 142
+    end_page: 142
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 143
+    end_page: 144
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 145
+    end_page: 145
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 146
+    end_page: 147
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 148
+    end_page: 148
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 149
+    end_page: 150
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 151
+    end_page: 151
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 152
+    end_page: 162
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 163
+    end_page: 163
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 164
+    end_page: 166
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 167
+    end_page: 167
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 168
+    end_page: 172
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 173
+    end_page: 180
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 181
+    end_page: 181
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 182
+    end_page: 182
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 183
+    end_page: 184
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 185
+    end_page: 188
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 189
+    end_page: 189
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 190
+    end_page: 194
+    page_type: text_native
+    strategy: pymupdf_text+pdfplumber_tables
+  - start_page: 195
+    end_page: 195
+    page_type: text_native
+    strategy: pymupdf_text
+  - start_page: 196
+    end_page: 196
+    page_type: mixed
+    strategy: pymupdf_text
+  - start_page: 197
+    end_page: 201
+    page_type: text_native
+    strategy: pymupdf_text
+  scanned_pages:
+  - 1
+  stage_timings:
+  - stage: triage
+    seconds: 0.3782
+  - stage: extraction
+    seconds: 4.7153
+  - stage: verification
+    seconds: 0.0049
+  - stage: assembly
+    seconds: 0.0001
+  status: ok
+  config_snapshot:
+    min_text_chars: 50
+    verify_min_chars_per_page: 1
+issues:
+- stage: verification
+  severity: warning
+  error_type: no_text_layer
+  message: Image-only (scanned) page has no text layer; nothing extracted.
+  page: 1
+  likely_cause: A scanned/raster page; its text is not machine-readable without OCR.
+messages:
+- level: warning
+  message: 1 image-only (scanned) page(s) have no text layer and were not extracted.
+  page: null
