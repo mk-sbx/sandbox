@@ -1,0 +1,36 @@
+// Handbook env config — DOCUMENTATION ONLY (JSONC, with comments).
+// Claude Code does NOT load this file. It loads settings.json and
+// settings.local.json, which must be strict JSON (no comments) — a stray
+// comment there silently disables every setting in that file.
+// Copy values from here into those files WITHOUT the comments.
+{
+  "env": {
+    // --- portable config -> .claude/settings.json -------------------------
+
+    // Git remote the skill clones from. Accepts an SSH URL, HTTPS URL,
+    // SCP-style shorthand, OR a local path (so it's really a "remote", not a
+    // URL). SCP shorthand (default) matches the existing checkout's origin:
+    "HANDBOOK_REPO_URL": "git@github.com:camelops-sandbox/sandbox-engineering-handbook.git",
+    //   alternatives:
+    //   "ssh://git@github.com/camelops-sandbox/sandbox-engineering-handbook.git"  (proper URI)
+    //   "https://github.com/camelops-sandbox/sandbox-engineering-handbook.git"    (needs a token)
+    //   "/Users/sbx/Documents/sandbox-engineering-handbook"                       (local, no auth)
+
+    // Base URL for citation deep-links to the deployed wiki (display only; not fetched).
+    "HANDBOOK_URL": "https://camelops-sandbox.github.io/sandbox-engineering-handbook/",
+
+    // Seconds before a lazy `git pull` is attempted. "0" = pull on every call.
+    "HANDBOOK_SYNC_TTL": "3600",
+
+    // BM25 ranking knobs (see SPEC.md D5).
+    "HANDBOOK_BM25_K1": "1.5",     // term-frequency saturation
+    "HANDBOOK_BM25_B": "0.5",      // length normalisation (0 none .. 1 full)
+    "HANDBOOK_TITLE_BOOST": "2.0", // additive idf-weighted title bonus
+
+    // --- machine-specific paths -> .claude/settings.local.json ------------
+    // Absolute paths only: env values are NOT ~-expanded by the script.
+
+    "HANDBOOK_REPO_LOCAL_CACHE": "/Users/sbx/.cache/handbook/repo", // managed clone location
+    "HANDBOOK_CACHE": "/Users/sbx/.cache/handbook"      // pull-timestamp stamp dir
+  }
+}

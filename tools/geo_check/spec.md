@@ -5,6 +5,7 @@ dataset, and how?"** against GeoJSON data — without falling into the quiet GIS
 failure modes (wrong CRS, swapped axes, invalid geometry) that produce
 *confidently wrong* answers rather than errors.
 
+
 - **Code:** `tools/geo_check/main.py`
 - **Tests:** `tools/geo_check/tests.py` (standalone runner; pytest-compatible)
 - **Deps:** Shapely 2.x (required), pyproj (only imported when a reprojection or

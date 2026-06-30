@@ -1,0 +1,10 @@
+{
+  "env": {
+    "HANDBOOK_REPO_URL": "git@github.com:camelops-sandbox/sandbox-engineering-handbook.git",
+    "HANDBOOK_URL": "https://camelops-sandbox.github.io/sandbox-engineering-handbook/",
+    "HANDBOOK_SYNC_TTL": "3600",
+    "HANDBOOK_BM25_K1": "1.5",
+    "HANDBOOK_BM25_B": "0.5",
+    "HANDBOOK_TITLE_BOOST": "2.0"
+  }
+}
